@@ -1,0 +1,27 @@
+{
+  "name": "tailwind_css_2",
+  "version": "1.0.0",
+  "description": "```bash\r   npm init -y      // This initializes the directory as a node project\r ```\r ```bash\r   npm install -D tailwindcss postcss autoprefixer vite      // Installs required packages\r ```\r ```bash\r   npx tailwindcss init -p\r ```\r ```bash\r   Create a CSS file \"input.css\" and add it to your html and also add these lines in css",
+  "main": "index.js",
+  "scripts": {
+    "start": "vite",
+    "build": "vite build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Apurv-Here/Second-Website-Challenge.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Apurv-Here/Second-Website-Challenge/issues"
+  },
+  "homepage": "https://github.com/Apurv-Here/Second-Website-Challenge#readme",
+  "devDependencies": {
+    "autoprefixer": "^10.4.7",
+    "postcss": "^8.4.14",
+    "tailwindcss": "^3.0.24",
+    "vite": "^2.9.9"
+  }
+}

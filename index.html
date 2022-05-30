@@ -4,9 +4,51 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="/input.css">
+    <title>Microsoft</title>
 </head>
 <body>
+    <nav>
+        <div class="bg-[#eaeaea] h-12 flex justify-between items-center">
+            <div class="flex items-center md:order-2">
+                <div class="hamburger inline-block p-4 md:hidden">
+                    <div class=" h-0.5 w-6 my-1 bg-black"></div>
+                    <div class=" h-0.5 w-6 my-1 bg-black"></div>
+                    <div class=" h-0.5 w-6 my-1 bg-black"></div>
+                </div>
+                <!-- this search will become hidden on md -->
+                <div class="search md:hidden">
+                    <div>
+                        <img class="w-7 h-7 rounded-full" src="/Images/Navbar/Search_Icon.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+            <!-- div for microsoft main logo -->
+            <div class="  flex items-center ml-5 p-1 md:order-1 md:ml-16">
+                <img class="h-5 w-24  " src="/Images/Navbar/Microsoft_Logo.png" alt="Microsoft">
+            </div>
+            <div class="flex items-center  md:order-3">
+                <div class=" hidden invisible md:visible md:block p-4  ml-2 ">
+                    <span class="text-sm">All microsoft</span>
+                </div>
+                <!-- this search will become active on md -->
+                <div class="search hidden  invisible md:visible md:block ">
+                    <div>
+                        <img class="w-7 h-7 rounded-full" src="/Images/Navbar/Search_Icon.jpg" alt="">
+                    </div>
+                </div>
+                <!-- div for cart icon -->
+                <div class="ml-2">
+                    <img class=" w-9 h-6 " src="/Images/Navbar/Cart_Icon.JPG" alt="">
+                </div>
+                <!-- div for sign in icon  -->
+                <div class="w-11 h-7 flex items-center ml-2 mr-4 md:mr-16 ">
+                    <img class=" rounded-full  " src="/Images/Navbar/SignIn_Icon.png" alt="">
+                </div>
+            </div>
+
+        </div>
+    </nav>
     
 </body>
 </html>

@@ -1,8 +1,4 @@
-# Website Link - https://6290d40f07a43c3639084f13--glowing-flan-36c542.netlify.app/
-
-
-
-
+# Website Link - 
 
 
 # Tailwind CSS Setup
@@ -29,6 +25,7 @@
   In your tailwind.config.js replace content[], with content[*]
 ```
 ```bash
+  remove "test": "echo \"Error: no test specified\" && exit 1" and
   add 
   "start": "vite",
   "build": "vite build" 
@@ -44,13 +41,6 @@
 
 ## Documentation
 
-    Note: This static page is not responsive.
-    This static page consists of:
-    1. Navbar
-    2. Old Trafford Banner 
-    3. Premier League score cards
-    4. Latest article with big image and some information by it's side
-    5. Floating cards for articles
-    6. Footer with social reach information
+    
 
 
