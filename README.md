@@ -22,7 +22,7 @@
   @tailwind utilities;
 ```
 ```bash
-  In your tailwind.config.js replace content[], with content[*]
+  In your tailwind.config.js replace content[], with content["*"]
 ```
 ```bash
   remove "test": "echo \"Error: no test specified\" && exit 1" and
