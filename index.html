@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,48 +8,92 @@
     <link rel="stylesheet" href="/input.css">
     <title>Microsoft</title>
 </head>
+
 <body>
     <nav>
-        <div class="bg-[#eaeaea] h-12 flex justify-between items-center">
+        <div class="bg-white h-14 flex justify-between items-center">
             <div class="flex items-center md:order-2">
                 <div class="hamburger inline-block p-4 md:hidden">
                     <div class=" h-0.5 w-6 my-1 bg-black"></div>
                     <div class=" h-0.5 w-6 my-1 bg-black"></div>
                     <div class=" h-0.5 w-6 my-1 bg-black"></div>
                 </div>
+
                 <!-- this search will become hidden on md -->
-                <div class="search md:hidden">
-                    <div>
-                        <img class="w-7 h-7 rounded-full" src="/Images/Navbar/Search_Icon.jpg" alt="">
+                <div class="search md:hidden md:invisible">
+                    <div class="mb-1">
+                        <img class="w-8 h-9 rounded-full" src="/Images/Navbar/Search_Icon.jpg" alt="">
                     </div>
                 </div>
             </div>
-            <!-- div for microsoft main logo -->
-            <div class="  flex items-center ml-5 p-1 md:order-1 md:ml-16">
-                <img class="h-5 w-24  " src="/Images/Navbar/Microsoft_Logo.png" alt="Microsoft">
+            <!-- div for microsoft main logo and also for various options for mobile-->
+            <div class="flex md:order-1 md:ml-3 lg:ml-9">
+
+                <div class="  flex items-center ml-5 p-1 ">
+                    <a href=""><img class="h-6 w-24  " src="/Images/Navbar/Microsoft_Logo.png" alt="Microsoft"></a>
+                </div>
+
+                <div class="invisible hidden md:visible md:flex ml-6 mr-5 space-x-5 text-sm items-center ">
+                    <a class="hover:text-gray-600 hover:underline" href="">Microsoft 365</a>
+                    <a class="hover:text-gray-600 hover:underline" href="">Office</a>
+                    <a class="hover:text-gray-600 hover:underline" href="">Windows</a>
+                    <a class="hover:text-gray-600 hover:underline" href="">Surface</a>
+                    <a class="hover:text-gray-600 hover:underline" href="">Xbox</a>
+                    <a class="hover:text-gray-600 hover:underline" href="">Support</a>
+
+                </div>
+                
+                
+
             </div>
             <div class="flex items-center  md:order-3">
-                <div class=" hidden invisible md:visible md:block p-4  ml-2 ">
-                    <span class="text-sm">All microsoft</span>
+                <div class=" hidden invisible lg:visible lg:flex p-4  ml-6  text-sm items-center">
+                    <a class="hover:text-gray-600 hover:underline" href="">All Microsoft</a>
                 </div>
                 <!-- this search will become active on md -->
                 <div class="search hidden  invisible md:visible md:block ">
-                    <div>
+                    <a href=""><div>
                         <img class="w-7 h-7 rounded-full" src="/Images/Navbar/Search_Icon.jpg" alt="">
-                    </div>
+                    </div></a>
                 </div>
                 <!-- div for cart icon -->
                 <div class="ml-2">
-                    <img class=" w-9 h-6 " src="/Images/Navbar/Cart_Icon.JPG" alt="">
+                    <a href=""><img class=" w-9 h-6 " src="/Images/Navbar/Cart_Icon.JPG" alt=""></a>
                 </div>
                 <!-- div for sign in icon  -->
-                <div class="w-11 h-7 flex items-center ml-2 mr-4 md:mr-16 ">
-                    <img class=" rounded-full  " src="/Images/Navbar/SignIn_Icon.png" alt="">
+                <div class="w-11 h-9 flex items-center ml-2 mr-4 md:mr-16 ">
+                    <a href=""><img class=" rounded-full  " src="/Images/Navbar/SignIn_Icon.png" alt=""></a>
                 </div>
             </div>
 
         </div>
+
+        <!-- On mobile it will be hamburger menu options on click -->
+        <div class="hidden invisible  ">
+            <div class="features  absolute  h-full w-full bg-gray-200  ">
+
+                <a href=""><div class="fitem my-5 mx-4  ">Microsoft 365</div></a>
+                <div class="bg-gray-300 black h-[1px]"></div>
+                <a href=""><div class="fitem my-5 mx-4 ">Office</div></a>
+                <div class="bg-gray-300 h-[1px]"></div>
+                <a href=""><div class="fitem my-5 mx-4 ">Windows</div></a>
+                <div class="bg-gray-300 h-[1px]"></div>
+                <a href=""><div class="fitem my-5 mx-4 ">Surface</div></a>
+                <div class="bg-gray-300 h-[1px]"></div>
+                <a href=""><div class="fitem my-5 mx-4 ">Xbox</div></a>
+                <div class="bg-gray-300 h-[1px]"></div>
+                <a href=""><div class="fitem my-5 mx-4 ">Support</div></a>
+                <div class="bg-gray-300 h-[1px]"></div>
+                <a href=""><div class="fitem my-5 mx-4 ">PCs & Devices</div></a>
+                <div class="bg-gray-300 h-[1px]"></div>
+                <a href=""><div class="fitem my-5 mx-4 ">Entertainment</div></a>
+                <div class="bg-gray-300 h-[1px]"></div>
+            </div>
+        </div>
     </nav>
-    
+
+    <div class="h-8 w-full bg-red-500"></div>
+
 </body>
+
 </html>
