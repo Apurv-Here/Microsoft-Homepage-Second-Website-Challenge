@@ -1,5 +1,6 @@
 # Website Link - https://62ab9f72ec520437cfca5308--charming-donut-fbe173.netlify.app/
 
+# Clone of microsoft homepage (frontend only).
 
 # Tailwind CSS Setup
 
