@@ -9,35 +9,17 @@
         content="Explore Microsoft products and services for your home or business. Shop Surface, Microsoft 365, Xbox, Windows, Azure and more. Find downloads and get support." />
     <link rel="icon" type="image/x-icon" href="/Images/Icons/favicon.ico">
     <link rel="stylesheet" href="/CSS/input.css">
-    <!-- <link rel="stylesheet" href="/CSS/hamBurgerMobile.css"> -->
+    <link rel="stylesheet" href="/CSS/hamBurgerMobile.css">
     <title>Microsoft – Cloud, Computers, Apps &amp; Gaming</title>
 
-    <style>
-        .showMenuMobile {
-            display: block;
-            visibility: visible;
-        }
-
-        @media screen and (min-width: 768px) {
-            .showMenuMobile {
-                display: none;
-                visibility: hidden;
-            }
-        }
-    </style>
-
-    <script>
-        document.querySelector('#hemburger3line').addEventListener('click', () => {
-            document.querySelector('#hamBurgerMenu').classList.toggle('showMenuMobile');
-        }); 
-    </script>
+    
 </head>
 
 <body>
     <nav>
         <div class="bg-white h-14 flex justify-between items-center">
             <div class="flex items-center md:order-2">
-                <div class="hamburger inline-block p-4 md:hidden md:invisible" id="hemburger3line">
+                <div class="hamburger inline-block p-4 md:hidden md:invisible" id="hamburger3line" onclick="mobileMenuShow()">
                     <div class=" h-0.5 w-6 my-1 bg-black"></div>
                     <div class=" h-0.5 w-6 my-1 bg-black"></div>
                     <div class=" h-0.5 w-6 my-1 bg-black"></div>
@@ -640,7 +622,7 @@
     </footer>
 
     <!-- <div class="w-screen h-14 bg-red-600 overflow-hidden"></div> -->
-    <!-- <script type="text/javascript" src="/Javascript/hamBurgerMobile.js"></script> -->
+    <script type="text/javascript" src="/Javascript/hamBurgerMobile.js"></script>
 </body>
 
 </html>
